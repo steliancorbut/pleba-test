@@ -1,7 +1,10 @@
 # pleba-test
-How to Install
+
+# How to Install
 >npm install
+
 >npm start
+
 browser will open http://localhost:3000/
 
 Create MyBranch
