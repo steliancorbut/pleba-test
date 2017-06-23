@@ -37,6 +37,7 @@ hr {
 }
 
 .brand,
+.address-bar-right,
 .address-bar {
     display: none;
 }
@@ -146,6 +147,13 @@ footer p {
         font-weight: 400;
         letter-spacing: 3px;
         color: #fff;
+    }
+    
+    .address-bar-right {
+        display: inherit;
+        margin: 0;
+        padding:0px;
+        text-align: right;
     }
 
     .navbar {
