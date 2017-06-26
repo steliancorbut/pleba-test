@@ -28,50 +28,19 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function(){
+        $("#head").load("_head.html"); 
+        $("#foot").load("_foot.html"); 
+        });  
+    </script>
 </head>
 
 <body>
-
-    <div class="brand">Vinurile "Plebanos"</div>
-    <div class="address-bar">Cramele "LOGOS" | Str. Aiudului, nr.10, Aiud, jud. Alba | Tel. 0728 831 735</div>
-    <div class="address-bar-right">
-             <ul class="list-inline">
-                <li><a href="index.html"><img src="/img/flag-ro.png" style="max-width: 36px; margin-top: -50px; margin-right: 10px;"></a></li>
-                <li><a href="despre-noi.html"><img src="/img/flag-gb.png" style="max-width: 36px; margin-top: -50px; margin-right: 10px;"></a></li>
-                <li><a href="despre-noi.html"><img src="/img/lang-hu.jpg" style="max-width: 36px; margin-top: -50px; margin-right: 10px;"></a></li>
-            </ul>
-            <!-- /.navbar-top-links -->
-    </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Vinurile "Plebanos"</a>
-                <a class="navbar-brand" href="index.html"><img src="/img/flag-ro.png" style="max-width: 36px; margin-top: -5px;"></a>
-                <a class="navbar-brand" href="index.html"><img src="/img/flag-gb.png" style="max-width: 36px; margin-top: -5px;"></a>
-                <a class="navbar-brand" href="index.html"><img src="/img/lang-hu.jpg" style="max-width: 36px; margin-top: -5px;"></a>                
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li> <a href="index.html">Home</a> </li>
-                    <li><a href="about.html">Crama</a></li>
-                    <li><a href="blog.html">Vinurile</a> </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<!-- include upper menu header and navigation -->
+<div id="head"></div>
 
     <div class="container">
 
@@ -125,14 +94,14 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Build a website
-                        <strong>worth visiting</strong>
+                    <h2 class="brand-before text-center">Vinurile
+                        <strong> Pl&eacute;b&aacute;nos</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left" src="img/pivnitele_logos.jpg" alt="pivnitele logos">
+                    <img class="img-responsive img-border img-left" src="img/butoi_plebanos.jpg" alt="butoi plebanos">
                     <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+                    <p>Renumitele vinuri Plebanos si-au castigat faima datorita soiurilor nobile de vita-de-vie si a prelucrarii dupa o reteta traditionala.</p>
+                    <p>Hostelul Doua Salcii va invita sa petreceti clipe de neuitat si, de asemenea, sa degustati vinul "PLEBANOS" la crama noastra.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
             </div>
@@ -142,11 +111,13 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
+                    <h2 class="brand-before text-center">Cramele
+                        <strong>"LOGOS"</strong>
                     </h2>
                     <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
+                    <img class="img-responsive img-border img-right" src="img/pivnitele_logos.jpg" alt="pivnitele logos">
+                    <p>Pivnitele "Logos" din Aiud va poftesc la o degustare de vinuri "Plebanos" eventual insotite de o tacanita de vanat.</p>
+                    
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
             </div>
@@ -155,18 +126,7 @@
     </div>
     <!-- /.container -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>&copy; Plebanos 2017</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<div id="foot"></div>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
