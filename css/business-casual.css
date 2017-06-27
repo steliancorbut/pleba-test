@@ -69,7 +69,7 @@ hr {
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .tagline-divider {
@@ -139,6 +139,11 @@ footer p {
     .img-right {
         float: right;
         margin-left: 20px;
+    }
+    
+    .btn-right {
+        float: right;
+        margin-right: 30px;
     }
     .address-bar {
         display: inherit;
