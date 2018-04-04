@@ -1,4 +1,4 @@
-# pleba-test
+# vinurile plebanos
 
 # How to Install
 >npm install
